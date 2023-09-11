@@ -1,0 +1,35 @@
+{
+    "users": [
+      { 
+        "id" : 1,
+        "user_uuid": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
+       "username": "brycehills",
+       "handle": "Bryce123",
+       "bio": "software developer from california",
+       "link": "https://www.linkedin.com/in/brycehills1/",
+       "img": "https://i.imgur.com/WLUcMMH.jpg",
+       "instagram_url": "https://www.instagram.com/brycehills/", 
+       "followers": [
+        {
+            "user_uuid": "ef1d826b-5701-4e44-aef9-be06f17b6fcf"
+        },
+        {
+            "user_uuid": "648027ec-b77b-46e9-81d6-feab8d8d4b16"
+        },
+        {
+            "user_uuid": "dbaebc74-d2a9-45a6-9251-b9473d81b877"
+        }
+       ]
+    }
+    ],
+
+    "threads": [
+      { 
+        "id": 1,
+         "body": "some comment",
+          "postId": 1 
+    }
+    ],
+
+    "profile": { "name": "typicode"}
+  }
