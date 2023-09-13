@@ -1,7 +1,7 @@
 {
     "users": [
       { 
-        "id" : 1,
+        "id" : 0,
         "user_uuid": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
        "username": "brycehills",
        "handle": "Bryce123",
@@ -20,16 +20,108 @@
             "user_uuid": "dbaebc74-d2a9-45a6-9251-b9473d81b877"
         }
        ]
-    }
+    },
+    { 
+      "id" : 1,
+      "user_uuid": "ef1d826b-5701-4e44-aef9-be06f17b6fcf",
+     "username": "bobbyl",
+     "handle": "bobbyL",
+     "bio": "keepin it real",
+     "link": "www.bobbylight.com",
+     "img": "https://imgur.com/dBRjxAn",
+     "instagram_url": "https://www.instagram.com/sdhjfksdhfjkh/", 
+     "followers": [
+      {
+          "user_uuid": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0"
+      }
+     ]
+  },
+
+    { 
+      "id" : 2,
+      "user_uuid": "648027ec-b77b-46e9-81d6-feab8d8d4b16",
+     "username": "jimmyG123",
+     "handle": "jimmyG123",
+     "bio": "i love football",
+     "link": "www.jimmyg123.com",
+     "img": "https://i.imgur.com/IDUK2RA.jpeg",
+     "instagram_url": "https://www.instagram.com/jimmygarapolo/", 
+     "followers": [
+      {
+          "user_uuid": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0"
+      },
+      {
+        "user_uuid":  "ef1d826b-5701-4e44-aef9-be06f17b6fcf"
+      }
+     ]
+  }
+
+
     ],
 
-    "threads": [
+    "threads": 
+    [
+      { 
+        "id": 0,
+        "timestamp": "Wed Sep 13 2023 14:00:49 GMT-0700 (Pacific Daylight Time)",
+        "thread_from": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "hello world of threads",
+        "likes": [
+          {
+            "uuid": "ef1d826b-5701-4e44-aef9-be06f17b6fcf"
+          },
+          {
+            "uuid": "648027ec-b77b-46e9-81d6-feab8d8d4b16"
+          }
+        ]
+      },
+
       { 
         "id": 1,
-         "body": "some comment",
-          "postId": 1 
-    }
+        "timestamp": "Wed Sep 13 2023 15:00:49 GMT-0700 (Pacific Daylight Time)",
+        "thread_from": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "another thread!",
+        "likes": [
+
+        ]
+      },
+      { 
+        "id": 2,
+        "timestamp": "Wed Sep 13 2023 16:14:49 GMT-0700 (Pacific Daylight Time)",
+        "thread_from": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "a thrid one",
+        "likes": [
+        ]
+      },
+      { 
+        "id": 3,
+        "timestamp": "Wed Sep 13 2023 18:19:49 GMT-0700 (Pacific Daylight Time)",
+        "thread_from": "648027ec-b77b-46e9-81d6-feab8d8d4b16",
+        "thread_to": null,
+        "reply_to": null,
+        "text": "exicted to be here!",
+        "likes": [
+        ]
+      },
+      { 
+        "id": 4,
+        "timestamp": "Wed Sep 13 2023 18:19:49 GMT-0700 (Pacific Daylight Time)",
+        "thread_from": "e92a7612-96b9-4d33-9a30-714ff9e8ccb0",
+        "thread_to": "ef1d826b-5701-4e44-aef9-be06f17b6fcf",
+        "reply_to": 3,
+        "text": "me too!",
+        "likes": [
+        ]
+      }
+
     ],
+
 
     "profile": { "name": "typicode"}
   }
